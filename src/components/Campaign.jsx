@@ -14,12 +14,13 @@ const Campaign = () => {
       {/* Flex Container for Image + Text */}
       <div className="flex container mx-auto gap-8 justify-between items-center ">
         {/* Image Section */}
+        
         <img
           src={campaign}
           alt="About the Campaign"
-          className="rounded-2xl w-full max-w-md shadow-soft h-110"
+          className="rounded-2xl w-full max-w-md shadow-soft h-90 "
         />
-
+        
         {/* Text Section */}
         <div className="text-slate-600">
           <p className="mb-4">
