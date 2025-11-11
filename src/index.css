@@ -1,0 +1,206 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: #fff5f5; /* light red background */
+  color: #333;
+}
+
+/* Navbar */
+nav {
+  background-color: #c53030; /* red-700 */
+  color: white;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  color: #fbd38d; /* hover effect */
+}
+
+nav button {
+  background-color: white;
+  color: #c53030;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+nav button:hover {
+  background-color: #fed7d7;
+}
+
+/* Hero Section */
+section {
+  text-align: center;
+  padding: 80px 24px;
+}
+
+section h1 {
+  color: #c53030;
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+section p {
+  color: #555;
+  font-size: 18px;
+  margin-bottom: 32px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section button {
+  padding: 12px 24px;
+  margin: 4px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+section button:first-child {
+  background-color: #c53030;
+  color: white;
+}
+
+section button:first-child:hover {
+  background-color: #9b2c2c;
+}
+
+section button:last-child {
+  background-color: white;
+  color: #c53030;
+  border: 2px solid #c53030;
+}
+
+section button:last-child:hover {
+  background-color: #fed7d7;
+}
+
+/* Info Cards */
+section div {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.card {
+  background-color: white;
+  border-top: 4px solid #c53030;
+  border-radius: 12px;
+  padding: 24px;
+  max-width: 300px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card h3 {
+  color: #c53030;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.card p {
+  color: #555;
+  font-size: 14px;
+}
+
+/* Call-to-Action Banner */
+.cta {
+  background-color: #c53030;
+  color: white;
+  padding: 60px 24px;
+  text-align: center;
+}
+
+.cta button {
+  background-color: white;
+  color: #c53030;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cta button:hover {
+  background-color: #fed7d7;
+}
+
+/* Footer */
+footer {
+  background-color: #822727;
+  color: white;
+  padding: 40px 24px;
+}
+
+footer h4 {
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li a {
+  color: #fbd38d;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  color: white;
+}
+
+footer .social a {
+  margin-right: 16px;
+  color: #fbd38d;
+  text-decoration: none;
+}
+
+footer .social a:hover {
+  color: white;
+}
+
+footer .copyright {
+  text-align: center;
+  margin-top: 24px;
+  font-size: 14px;
+  color: #fbd38d;
+}
